@@ -16,4 +16,8 @@ ggmap(get_googlemap(center = 'china', zoom=3,maptype='terrain'),extent='device')
   geom_point(data=data,aes(x=lon,y=lan),colour = 'red',alpha=0.7)+
   stat_density2d(aes(x=lon,y=lan,fill=..level..,alpha=..level..),
                  size=2,bins=4,data=data,geom='polygon')+
+<<<<<<< HEAD
                    opts(legend.position = "right")
+=======
+                   opts(legend.position = "bottomright",padding = 0.02)
+>>>>>>> 367624624f0956fcc73dcdd42257dc3d33009a88
