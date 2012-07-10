@@ -1,0 +1,6 @@
+rate<-c(20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42)
+impurity <-c(8.4, 9.5, 11.8, 10.4, 13.3, 14.8, 13.2, 14.7, 16.4, 16.5, 18.9, 18.5)
+plot(impurity~rate)
+reg<-lm(impurity~rate)
+abline(reg,col="red")
+summary(reg)
