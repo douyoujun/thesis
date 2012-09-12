@@ -13,7 +13,7 @@ p <- ggplot(data=mpg,mapping=aes(x=cty,y=hwy))
 p + geom_point()
 ```
 
-
+![plot of chunk unnamed-chunk-1](https://github.com/xccds/Rblog/raw/master/figure/unnamed-chunk-1.png) 
 
 ggplot函数是用来构建基本的图形对象，相当于是一张空白的画布。其中我们需要定义可视化的数据对象(Data)，以及数据变量到图形属性之间的映射(Mapping)。在上面的图形里， 我们使用了mpg数据框，并将cty变量映射到X轴，hwy映射到Y轴。
 
