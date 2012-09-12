@@ -1,4 +1,4 @@
-mydata <- read.csv('d:\\ft500.csv',T,stringsAsFactors = F)
+mydata <- read.csv('ft500.csv',T,stringsAsFactors = F)
 data  <- transform(mydata,
                    Country = factor(Country),
                    Sector = factor(Sector),
