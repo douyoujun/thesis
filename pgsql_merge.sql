@@ -1,4 +1,4 @@
-ALTER TABLE 
+﻿ALTER TABLE 
   "Salinity_EPED"
 ALTER COLUMN 
   "SamplingDate" TYPE character(20);

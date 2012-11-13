@@ -1,4 +1,4 @@
-UPDATE 
+﻿UPDATE 
   public."GWLevel_PED" 
 SET 
   "SamplingDate"=LEFT("SamplingDate" , 10);

@@ -1,0 +1,14 @@
+--------------------------------------
+
+5.Nov.2012  17:41
+
+Message : print(ggplot() +  geom_line(aes(x = SamplingDate,y = TDS,colour = as.factor(GroundwaterLevel)),data=ds,fun.data = mean_sdl,mult = 1,stat = 'summary'))
+
+java.lang.Exception: print(ggplot() +  geom_line(aes(x = SamplingDate,y = TDS,colour = as.factor(GroundwaterLevel)),data=ds,fun.data = mean_sdl,mult = 1,stat = 'summary'))
+	at org.rosuda.deducer.MonitoredEval.startMonitor(Deducer.java:891)
+	at org.rosuda.deducer.MonitoredEval$2.run(Deducer.java:926)
+	at java.lang.Thread.run(Unknown Source)
+
+
+--------------------------------------
+
