@@ -1,7 +1,7 @@
 
 # change to the directory containing map data
 
-setwd("E:\\Workspace\\RevolutionR\\gmap_demo\\gmap_demo\\makemap\\data")
+setwd("/home/gerald/work/thesis-github/make-maps-in-r/data")
 
 # ---------- PBSmapping ---------- #
 
